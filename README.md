@@ -2,7 +2,7 @@
 A Node.js application with some API endpoints that upload/download/delete files into/from the local directory/Google cloud bucket
 
 ## Data flow
-![alt text](http://)
+![alt text](https://github.com/OsmanSujoy/REST_API_FILES/blob/master/Data%20Flow.png)
 
 ## Project Structure 
 ```
