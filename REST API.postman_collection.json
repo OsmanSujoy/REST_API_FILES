@@ -1,0 +1,61 @@
+{
+	"variables": [],
+	"info": {
+		"name": "REST API MULTER",
+		"_postman_id": "0bf1d863-6afb-43bf-14f4-73f85f26cadb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Upload File",
+			"request": {
+				"url": "http://localhost:8888/files",
+				"method": "POST",
+				"header": [
+					{
+						"key": "file",
+						"value": "",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get File Using Public Key",
+			"request": {
+				"url": "http://localhost:8888/files/m4XLrXdcX2",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete File Using Private Key",
+			"request": {
+				"url": "http://localhost:8888/files/M6zfpo1IDd",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
