@@ -87,13 +87,13 @@ Postman collection is also given, please import it.
 Request type -> POST
 Endpoint -> http://localhost:8888/files
 ```
-`API #02:` To `DOWNLOAD` a file, use the below endpoint. In Postman, replace {{public_key}} with a valid public key.
+`API #02:` To `DOWNLOAD` a file, use the below endpoint. In Postman, replace `{{public_key}}` with a valid public key.
 
 ```bash
 Request type -> GET
 Endpoint -> http://localhost:8888/files/{{public_key}}
 ```
-`API #03:` To `DELETE` a file, use the below endpoint. In Postman, replace {{private_key}} with a valid public key.
+`API #03:` To `DELETE` a file, use the below endpoint. In Postman, replace `{{private_key}}` with a valid public key.
 
 ```bash
 Request type -> DELETE
