@@ -93,7 +93,7 @@ Endpoint -> http://localhost:8888/files
 Request type -> GET
 Endpoint -> http://localhost:8888/files/{{public_key}}
 ```
-`API #03:` To `DELETE` a file, use the below endpoint. In Postman, replace `{{private_key}}` with a valid public key.
+`API #03:` To `DELETE` a file, use the below endpoint. In Postman, replace `{{private_key}}` with a valid private key.
 
 ```bash
 Request type -> DELETE
